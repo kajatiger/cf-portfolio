@@ -2,6 +2,15 @@
 	box-sizing: border-box; 
 }
 
+/*BODY */
+
+body {
+	background-color: #e5f2f3; /*#e0efe0*/
+  color: #34495e;
+  padding-top: 95px;
+  position: relative;
+}
+
 /*NAVBAR STYLING*/
 
 #customnav ul li a {
@@ -27,7 +36,6 @@
   text-decoration: none;
 }
 
-
 .navbar {
 	color: white;
 	background-color: #005053; /*#34495e*/
@@ -44,15 +52,6 @@
 
 .dropdown-menu {
 	background-color: #005053;
-}
-
-
-
-body {
-	background-color: #e5f2f3; /*#e0efe0*/
-  color: #34495e;
-  padding-top: 95px;
-  position: relative;
 }
 
 /*CAROUSEL STYLING*/
@@ -83,7 +82,6 @@ h3 {
 }
 
 
-
 /*ABOUT STYLING*/
 
 .intro p {
@@ -91,9 +89,7 @@ h3 {
     font-size: 1.5em;
     font-weight: 100;
     -webkit-margin-before: 0;
-
 }
-
 
 li,
 p {
@@ -101,13 +97,10 @@ font-family: Georgia,Times,"Times New Roman",serif;
 }
 
 .skills h2 {
-/*	text-align: center;*/
 		text-transform: uppercase;
 		background-color: #5AD4C2;
 		padding: 10px 10px;
-
 }
-
 
 .header h1 {
 
@@ -116,13 +109,10 @@ font-family: Georgia,Times,"Times New Roman",serif;
 	margin-top: 140px;
 }
 
-
-
 .pic {
 	width: 100%;
 	float: left;
 }
-
 
 h2 {
 	margin-top: 0;
@@ -148,7 +138,6 @@ ul {
 	  font-family: 'Titillium Web', Futura, Arial, sans-serif;
 	  font-size: 1.2em;
 	  font-weight: 500;
-
 }
 
 /*WORK STYLING*/
@@ -222,7 +211,6 @@ ul {
 
 /*FAQ STYLING*/
 
-
 .panel-body {
 	font-family: Georgia,Times,"Times New Roman",serif;
 	font-size: 1.1em;
@@ -231,7 +219,6 @@ ul {
 .panel-title {
 	font-family: 'Titillium Web', Futura, Arial, sans-serif;
 	font-size: 1.4em;
-
 }
 
 .panel-title:hover {
@@ -250,7 +237,6 @@ ul {
 	padding: 20px;
 	margin-left: 70px;
 	margin-top: 100px;
-
 }
 
 .modal-button {
@@ -266,7 +252,6 @@ ul {
 	/*padding: 0px;*/
 }
 
-
 /*STYLING THE VIDEO */
 
 .video {
@@ -280,7 +265,6 @@ ul {
 	padding-bottom: 20px;
 }
 
-
 /*	FOOTER STYLING */
 
 .copyright {
@@ -289,10 +273,12 @@ ul {
 
 .follow-twitter {
 	float: right;
+	margin: 3px;
 }
 
 .fb-like {
 	float: right;
+	margin: 3px;
 }
 
 
