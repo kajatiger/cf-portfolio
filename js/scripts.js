@@ -6,7 +6,8 @@
 $(document).ready(function(){
   // your code goes here
   //alert("Document is ready!")
-  $(".form-control").css("border", "2px solid red");
+  // $(".form-control").css("border", "2px solid red");
+  $(".form-control").css("background", "#f9e2f8")
   // Smooth scrolling
   var $root = $('html, body');
   $('.navbar-nav a').click(function() {
@@ -41,7 +42,7 @@ $(document).ready(function(){
   $('#button').on('click', function() {
   var comment = $('.form-control').val();
   $('#visible-comment').html(comment);
-  console.log(comment)
+  $('form-control').hide();
   return false;
 	});
 
