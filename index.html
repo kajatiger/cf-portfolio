@@ -318,6 +318,7 @@
             <div class="form-group">
               <label for="message" class="sr-only">Message *</label>
               <textarea style="resize:none" cols="40" rows="5" class="form-control" placeholder="Write me a message here..." id="message" required="required" minlength=10 name="message" title="enter your message"></textarea>
+              <p id="visible-comment"></p>
             </div> <!-- form group end -->
             <div class="form-group">
               <label for="email" class="sr-only">Email *</label>
@@ -327,7 +328,7 @@
               <label for="name" class="sr-only">Name *</label>
               <input type="name" class="form-control" placeholder="Name" id="name" required="required" minlength=1 name="name" title="enter your name">
             </div> <!-- form group end -->
-            <input class="btn btn-default" type="submit" value="Submit">
+            <input class="btn btn-default" type="submit" value="Submit" id="button">
       </form>
 
         </div> <!-- col-xs-12 end -->
@@ -446,35 +447,20 @@
 
     <!-- Can place script tags with JavaScript files here -->
     <script type="text/javascript">
-  var $root = $('html, body');
-    $('.navbar-nav a').click(function() {
+      var $root = $('html, body');
+      $('.navbar-nav a').click(function() {
         var href = $.attr(this, 'href');
         $root.animate({
             scrollTop: $(href).offset().top
         }, 500, function () {
             window.location.hash = href;
-        });
+      });
         return false;
     });
     </script>
 
     <script src="js/jquery.stellar.min.js"></script>
-    <script type="$(window).stellar();
-    // or:
-    $('#main').stellar();">
-    </script>
-
-    <script>
-    $(function () {
-    $('#item1').tooltip();
-    });
-    </script>
-
-    <script>
-    $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-    });
-    </script>
+    <script src="js/scripts.js"></script>
 
 
 
@@ -482,8 +468,6 @@
   <div class="follow-twitter">
     <a href="https://twitter.com/AlizeNero" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @AlizeNero
     </a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-    </script>
   </div> <!-- follow twitter end -->
   <div class="fb-like" data-href="http://kaja.bitballoon.com/" data-width="40px" data-layout="button" data-action="like" data-show-faces="true" data-share="false">
   </div>  
