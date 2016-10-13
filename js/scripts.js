@@ -41,7 +41,11 @@ $(document).ready(function(){
   $('#button').on('click', function() {
   var comment = $('.form-control').val();
   $('#visible-comment').html(comment);
-  $("#message").hide(); //message always just hides after
+  if (comment == "") {
+    $(".form-control").css("border", "2px solid red");
+
+  } else {
+    $(".form-control").hide(); //message always just hides after
   // the second click. I think it has something to do 
   //with the document-ready and that for some reason
   // the page only fully loads by the second click. 
@@ -49,6 +53,7 @@ $(document).ready(function(){
   //in a rails app and we had to change the js function 
   //to tell the browser when exactly the page is actually 
   //completely loaded.
+  };
   return false;
 	});
 
@@ -63,7 +68,13 @@ $(document).ready(function(){
   // TEXTAREA CHARACTER COUNT
   $("#message").on("keyup", function() {
     console.log("keyup happened");
-
+    var charCount = $("#message").val().length;
+    console.log(charCount);
+    if(charCount > 50) {
+      $("#message").css("color", "red");
+    } else {
+      $("#message").css("color", "black");
+    };
   });
 
 
