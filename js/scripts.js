@@ -77,5 +77,13 @@ $(document).ready(function(){
     };
   });
 
+  // work section
+  for(var i = 0; i < works.length; ++i ) {
+    $('#work').append('\
+      <div class="col-xs-6 col-md-3"> \
+        <img src="' + works[i] + '" class="img-responsive"> \
+      </div> \
+      ');
+  };
 
-});
+}); //document ready end
