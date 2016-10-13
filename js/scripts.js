@@ -84,6 +84,13 @@ $(document).ready(function(){
         <img src="' + works[i] + '" class="img-responsive"> \
       </div> \
       ');
+    var images = $('#work img');
+    if (i%2 === 0) {
+      $(images[i]).css("border", "2px solid DodgerBlue");
+    } else {
+      $(images[i]).css("border", "2px solid salmon");
+    };
+
   };
 
 }); //document ready end
