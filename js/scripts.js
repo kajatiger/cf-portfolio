@@ -7,7 +7,6 @@ $(document).ready(function(){
   // your code goes here
   //alert("Document is ready!")
   // $(".form-control").css("border", "2px solid red");
-  $(".form-control").css("background", "#f9e2f8")
   // Smooth scrolling
   var $root = $('html, body');
   $('.navbar-nav a').click(function() {
@@ -42,7 +41,14 @@ $(document).ready(function(){
   $('#button').on('click', function() {
   var comment = $('.form-control').val();
   $('#visible-comment').html(comment);
-  $('form-control').hide();
+  $("#message").hide(); //message always just hides after
+  // the second click. I think it has something to do 
+  //with the document-ready and that for some reason
+  // the page only fully loads by the second click. 
+  //I had a similar kind of problem once with turbolink 
+  //in a rails app and we had to change the js function 
+  //to tell the browser when exactly the page is actually 
+  //completely loaded.
   return false;
 	});
 
@@ -52,5 +58,13 @@ $(document).ready(function(){
 	});
 
   //textarea background
+  $(".form-control").css("background", "#f9e2f8")
+
+  // TEXTAREA CHARACTER COUNT
+  $("#message").on("keyup", function() {
+    console.log("keyup happened");
+
+  });
+
 
 });
