@@ -185,7 +185,7 @@ ul {
 */
 }
 
-.info {
+.email {
 	margin-bottom: 20px;
 }
 
@@ -221,16 +221,18 @@ ul {
 */	width: 80%;
 	padding: 13px;
 	margin-bottom: 10px;
+	display: inline-block;
 }
 
 .stalker-poster p {
 	margin-bottom: 40px;
 }
 
-.location {
-	background-image: 50%;
-	margin-bottom: 100px;
+#map {
+  height: 300px;
+  width: 100%;
 }
+
 
 
 /*FAQ STYLING*/
@@ -238,6 +240,7 @@ ul {
 .panel-body {
 	font-family: Georgia,Times,"Times New Roman",serif;
 	font-size: 1.1em;
+	display: inline-block;
 }
 
 .panel-title {

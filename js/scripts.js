@@ -1,6 +1,22 @@
 // twitter button footer
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
+//GOOGLE MAP ZOOM
+function initMap() {
+  var myLatLng = {lat: 52.4965527, lng: 13.3924497};
+
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng,
+    zoom: 17
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Find Me Here!'
+  });
+}
 
 
 $(document).ready(function(){

@@ -302,7 +302,7 @@
       <div class="row">
         <div class="col-xs-6 col-md-4">
           <div class="contact-poster">
-            <div class="contact info">
+            <div class="email">
               <p><span class="glyphicon glyphicon-envelope"></span>  Email me to:</p> 
               <a href="k.santro@posteo.de" id="link">k.santro@posteo.de</a>
           
@@ -338,9 +338,8 @@
       <div class="stalker-poster">
         <h3><span class="glyphicon glyphicon-map-marker"></span>  Where can you find me?</h3>
         <p>If you need to meet me in person, you can find me at the <strong>Amerika-Gedenk-Bibliothek</strong> in Kreuzberg</p>
-        <div class="maps">
-          <img src="img/bibliothek.png" alt="map" class="location">
-        </div> <!-- maps end -->
+        
+        <div id="map"></div>
 
       </div> <!-- stalker poster end -->
 
@@ -462,6 +461,10 @@
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACgYearY6AZ7p6x5SM2gr6PB2cNkTAOZ4&callback=initMap"
+    async defer></script>
+
+
 
 
 
