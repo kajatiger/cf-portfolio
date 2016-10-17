@@ -51,9 +51,6 @@ $(document).ready(function(){
   });
 
   // EVENT LISTENER
-  $("#button").on('click', function() {
-  // now we're going to work in here
-  // more code here
   $('#button').on('click', function() {
   var comment = $('.form-control').val();
   $('#visible-comment').html(comment);
@@ -70,8 +67,6 @@ $(document).ready(function(){
   //to tell the browser when exactly the page is actually 
   //completely loaded.
   };
-  return false;
-	});
 
   console.log('clicked');
   return false;
