@@ -58,19 +58,23 @@ $(document).ready(function(){
     $(".form-control").css("border", "2px solid red");
 
   } else {
-    $(".form-control").hide(); //message always just hides after
-  // the second click. I think it has something to do 
-  //with the document-ready and that for some reason
-  // the page only fully loads by the second click. 
-  //I had a similar kind of problem once with turbolink 
-  //in a rails app and we had to change the js function 
-  //to tell the browser when exactly the page is actually 
-  //completely loaded.
+    $(".form-control").hide();
   };
 
   console.log('clicked');
-  return false;
-  //no more code here
+  
+  //EMAIL VALIDATION still doesnt work
+    var valEmail = $('#email').val();
+    var regular = new regExp('\A\w+\S+[@]\w+\S+[.]\w+\S+\z');
+    if(valEmail = regular.test(str)) {
+      true
+      console.log(valEmail)
+    } else {
+      console.log(false)
+      $('#email').css("color", "red")
+      return false;
+    };
+
 	});
 
   //textarea background
@@ -87,6 +91,9 @@ $(document).ready(function(){
       $("#message").css("color", "black");
     };
   });
+
+  
+
 
   // work section
   for(var i = 0; i < works.length; ++i ) {
