@@ -3,8 +3,8 @@
 }
 
 /*BODY */
-
 body {
+	max-width: 100%;
 	background-color: #e5f2f3; /*#e0efe0*/
   color: #34495e;
   padding-top: 95px;
@@ -12,7 +12,6 @@ body {
 }
 
 /*NAVBAR STYLING*/
-
 #customnav ul li a {
 	color: white;
 	font-weight: 300;
@@ -21,21 +20,17 @@ body {
 	padding: 20px 20px 20px;
 	font-family: 'Titillium Web', Futura, Arial, sans-serif;
 	transition: color 600ms;
-
 }
-
 #homebutton {
 	color: white;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
-
 #customnav a:hover {
   color: #ff007f; 
   text-decoration: none;
 }
-
 .navbar {
 	color: white;
 	background-color: #005053; /*#34495e*/
@@ -45,108 +40,85 @@ body {
 	font-family: 'Titillium Web', Futura, Arial, sans-serif;
 	z-index: 1;
 }
-
 .glyphicon {
 	margin: 7px;
 }
-
 .dropdown-menu {
 	background-color: #005053;
 }
 
 /*CAROUSEL STYLING*/
-
 .carousel-caption p {
 	margin-bottom: 175px;
 	font-size: 1.5em;
 }
 
 /*Typography*/
-
 h1,
 h2,
 h3 {
     font-family: 'Titillium Web', Futura, Arial, sans-serif;
 }
 
-
 /*STYLING THE BOOTSTRAP COLUMNS*/
-
 .img-responsive {
 	margin: 40px 20px;
 }
-
 .col-xs-6 {
 	padding: 10px;
-
 }
-
 
 /*ABOUT STYLING*/
-
 .intro p {
-    font-family: 'Titillium Web', Futura, Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: 100;
-    -webkit-margin-before: 0;
+  font-family: 'Titillium Web', Futura, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
 }
-
 li,
 p {
-font-family: Georgia,Times,"Times New Roman",serif;
+	font-family: Georgia,Times,"Times New Roman",serif;
 }
-
 .skills h2 {
-		text-transform: uppercase;
-		background-color: #5AD4C2;
-		padding: 10px 10px;
+	text-transform: uppercase;
+	background-color: #5AD4C2;
+	padding: 10px 10px;
 }
-
 .header h1 {
-
 	text-align: center;
 	margin-bottom: 40px;
 	margin-top: 140px;
 }
-
 .pic {
 	width: 100%;
 	float: left;
 }
-
 h2 {
 	margin-top: 0;
 }
-
 ul {
-
 	list-style-type: none;
 	padding-left: 0;
 }
-
 .main-text {
 	clear: both;
 	padding-top: 60px;
 	margin-bottom: 100px;
 }
-
 .main-text p {
 	font-size: 1.2em;
 }
-
 #link {
-	  font-family: 'Titillium Web', Futura, Arial, sans-serif;
-	  font-size: 1.2em;
-	  font-weight: 500;
+  font-family: 'Titillium Web', Futura, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 /*WORK STYLING*/
-
 #work h2 {
 	text-align: center;
 	margin-top: 200px;
 }
-
 .work-img {
   display: block; /* needed to center the element with margin */
   margin: auto; /* center the image inside the column if it's smaller */
@@ -164,18 +136,15 @@ ul {
   letter-spacing:0.5em;
   line-height:1.6;
   display: none;
-
 }
 .proj-title {
   font-weight:100;
 }
 
-
 /*CONTACT STYLING*/
-
 .contact-poster {
 	display: block;
-	width: 80%;
+	width: 100%;
 	padding: 13px 13px 10px 13px;
 	margin-top: 10px; 
 	margin-bottom: 50px;
@@ -184,80 +153,62 @@ ul {
 /*	background-opacity: 0.4;
 */
 }
-
 .email {
 	margin-bottom: 20px;
 }
-
 #contact{
-    background-image: url("../img/bike.jpg");
-/*Add a background image*/
-    background-attachment: fixed;
-/*Give the background a fixed position does it not scroll when you scroll*/
-    background-size: cover;
-/*Have the background cover the entire div section*/
-    color: white;
-/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
-    padding:100px;
-    padding-top: 50px;
-    height: 900px;
-    margin-bottom: 300px;
+	overflow-y: auto;
+  background-image: url("../img/bike.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding:30px;
+  padding-top: 50px;
+  height: 900px;
+  width: 100%;
 }
 
 /*FORM STYLING */
-
 .form {
 	margin-bottom: 40px;
 }
-
 .form-control {
-	width: 70%;
+	width: 80%;
 }
 
 /*MAP STYLING*/
-
 .stalker-poster {
-/*	background-color: #5AD4C2;
-*/	width: 80%;
+	width: 80%;
 	padding: 13px;
 	margin-bottom: 10px;
 	display: inline-block;
 }
-
 .stalker-poster p {
 	margin-bottom: 40px;
 }
-
 #map {
   height: 300px;
   width: 100%;
 }
 
-
-
 /*FAQ STYLING*/
-
 .panel-body {
 	font-family: Georgia,Times,"Times New Roman",serif;
 	font-size: 1.1em;
 	display: inline-block;
 }
-
 .panel-title {
 	font-family: 'Titillium Web', Futura, Arial, sans-serif;
 	font-size: 1.4em;
 }
-
 .panel-title:hover {
-	  color: #5AD4C2;
+	color: #5AD4C2;
 }
-
 .panel-group {
 	margin-top: 140px;
 }
 
 /*LEARN MORE BUTTON*/
-
 .learn-more {
 	text-align: left;
 	float: left;
@@ -265,44 +216,37 @@ ul {
 	margin-left: 70px;
 	margin-top: 100px;
 }
-
 .modal-button {
 	float: right;
 	padding: 20px;
-	margin-top: 100px;
-	margin-right: 100px;
+	margin-top: 70px;
+	margin-right: 70px;
 }
-
 #CV {
 	width: 100%;
 	height: 500px;
-	/*padding: 0px;*/
 }
 
 /*STYLING THE VIDEO */
-
-.video {
-	position: center;
-	width: 80%;
-	margin: 140px;
+#video {
+	margin-bottom: 10px;
 }
-
-.video h2 {
+#video h2 {
 	text-align: center;
-	padding-bottom: 20px;
 }
 
 /*	FOOTER STYLING */
-
+footer {
+	width: 100%;
+	margin-top: 50px;
+}
 .copyright {
 	text-align: center;
 }
-
 .follow-twitter {
 	float: right;
 	margin: 3px;
 }
-
 .fb-like {
 	float: right;
 	margin: 3px;
