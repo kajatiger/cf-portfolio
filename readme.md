@@ -7,3 +7,15 @@ If you want to see it in your browser, visit [kaja.netlify.app](https://kaja.net
 ## The Structure
 
 This website is structured as a single page with link hooks that you can scroll down to. At the top there is a simple navigation bar.
+![Screenshot of navigation bar](https://user-images.githubusercontent.com/15628617/91574921-8f0a7b00-e947-11ea-94b1-9de9863be57f.png)
+
+Underneath is a big image caroussel to invite the visitor in with nice images. When you scroll further down, you can find the following sections:
+* Bootstrap columns about career goals, projects etc.
+* My work section with screenshots of my earliest projects.
+* About Kaja section with some text tiles about myself.
+* My story section with a little summery about my life.
+* Contact section with a contact form where you can leave me a message.
+* FAQ section with a simple drop down menue.
+* A CV link button to my CV as a PDF.
+* Video section with videos about my conference talks and my favorite surf video.
+* A footer with my twitter handle.
