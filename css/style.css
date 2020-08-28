@@ -1,5 +1,5 @@
-* { 
-	box-sizing: border-box; 
+* {
+	box-sizing: border-box;
 }
 
 /*BODY */
@@ -28,7 +28,7 @@ body {
 	letter-spacing: 0.05em;
 }
 #customnav a:hover {
-  color: #ff007f; 
+  color: #ff007f;
   text-decoration: none;
 }
 .navbar {
@@ -146,7 +146,7 @@ ul {
 	display: block;
 	width: 100%;
 	padding: 13px 13px 10px 13px;
-	margin-top: 10px; 
+	margin-top: 10px;
 	margin-bottom: 50px;
 	text-align: left;
 	background-color: #5AD4C2;
@@ -229,7 +229,7 @@ ul {
 
 /*STYLING THE VIDEO */
 #video {
-	margin-bottom: 10px;
+	margin-bottom: 70px;
 }
 #video h2 {
 	text-align: center;
