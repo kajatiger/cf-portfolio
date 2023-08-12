@@ -20,7 +20,7 @@ var works = [
 	url: "https://www.artsy.net/"
 },
 {
-	title: "info marker",
+	title: "ediblehood",
 	pic: "img/pumpkinediblehood.jpg",
 	url: "https://ediblehood-062016.herokuapp.com/locations"
 },
